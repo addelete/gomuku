@@ -3,6 +3,7 @@ import { IConfig } from 'umi-types';
 // ref: https://umijs.org/config/
 const config: IConfig = {
   treeShaking: true,
+  disableCSSModules: true,
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
     [
@@ -11,7 +12,7 @@ const config: IConfig = {
         antd: false,
         dva: false,
         dynamicImport: false,
-        title: 'umijs',
+        title: '五子棋',
         dll: false,
 
         routes: {
